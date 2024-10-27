@@ -1,0 +1,146 @@
+.logo {
+    width: 10vw;
+    float: left;
+    padding: 0 1vw;
+    margin: auto;
+}
+
+
+.text, article{
+    padding: 8%;
+}
+
+p{
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px;
+    letter-spacing: 0.8px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+article h6, article p{
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: var(--col-gray-op);
+}
+
+article blockquote{
+    margin-top: 17px;
+    text-align: center;
+    text-indent: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: var(--col-gray-op);
+}
+
+article p {
+    text-indent: 30px;
+}
+
+article q{
+    font-style: oblique;
+}
+
+.articlecentered {
+    margin-top: 17px;
+    text-align: center;
+    text-indent: 0;
+    margin-bottom: 15px;
+}
+.articleheader {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.articleinfo {
+    text-align: left;
+    text-indent: 0;
+    margin-bottom: 15px;
+    font-family: 'Courier New', serif;
+}
+
+.indent{
+    margin-left: 30px;
+}
+
+span{
+  font-weight: bold;
+}
+
+/**/
+
+.container_APPS {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*FAQ*/
+.faq-container {
+    max-width: 60vw;
+    margin: auto;
+}
+.faq-item {
+    background: var(--col-gray);
+    border: 1px solid var(--col-main);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.faq-title {
+    padding: 15px;
+    cursor: pointer;
+    background: var(--col-off);
+    color: var(--col-main);
+}
+.faq-content {
+    padding: 15px;
+    display: none;
+    background: var(--col-gray);
+}
+
+.faq-content a{
+    color: var(--col-off-op);
+}
+
+@media (max-width: 600px) {
+    .faq-title {
+        font-size: 18px;
+    }
+    .faq-content {
+        font-size: 16px;
+    }
+}
+/*team-item*/
+.team-container{
+    max-width: 90vw;
+}
+
+.team-item{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 28vw;
+}
+.team-item .img{
+    float: left; 
+    height: auto;
+    margin-bottom: 15px;
+    max-width: 10vw;
+    overflow: hidden;
+    height: auto;
+    margin-right: 1vw;
+
+}
+.team-item p{
+    clear: both;
+}
+
